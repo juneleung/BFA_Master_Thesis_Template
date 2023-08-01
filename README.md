@@ -9,4 +9,4 @@
 2023-06
 
 
-![pdfScreenshot](/doc/pic.jpg)
+![pdfScreenshot](/doc/pic.png)
