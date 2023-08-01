@@ -1,0 +1,72 @@
+\documentclass[UTF8,a4paper,12pt]{ctexart}
+\input{formatSetting.tex}
+
+% ----------------------------------------
+
+% 学科（专业领域）和研究方向的名称参照培养计划填写。
+\newcommand{\专业领域}{输入专业领域名称} % 如“电影学专业”、“电影领域”
+\newcommand{\研究方向}{输入研究方向名称} % 如“电影表演创作及理论方向”、“电影声音创作方向”
+\newcommand{\论文类型}{全日制艺术硕士学位论文}
+\newcommand{\年级}{（2022届）}
+
+% ----------------------------------------
+
+% 3.标题
+% 要求确切、具体。即题文一致、题文相符，切忌过于笼统、空泛。标题应概括论文的核心范畴和论点，一般不超过20个字。如标题过长，可用副标题补充。
+
+\newcommand{\论文中文标题}{输入论文中文标题}
+\newcommand{\论文中文副标题}{——输入论文中文副标题（若无请留空"\ "）} 
+% 如：
+% \newcommand{\论文中文副标题}{\ }
+\newcommand{\论文英文标题}{ENGLISH TITLE (16pt,Time New Roman,Bold)}
+\newcommand{\论文英文副标题}{——输入论文英文副标题（若无请留空"\ "）}
+
+% ----------------------------------------
+
+\newcommand{\研究生姓名}{输入作者姓名}
+\newcommand{\导师姓名I}{输入导师姓名}
+\newcommand{\导师姓名II}{导师 2（若无请留空"\ "）}
+\newcommand{\导师姓名III}{导师 3（若无请留空"\ "）}
+\newcommand{\答辩时间年}{2023}
+\newcommand{\答辩时间月}{05}
+\newcommand{\答辩时间日}{01}
+ 
+% ----------------------------------------
+% ----------------------------------------
+% ----------------------------------------
+
+% \linenumbers % 行号
+
+
+\input{paper_session/0.1_Cover.tex}                             % 封面
+\input{paper_session/0.2_Statement.tex}                         % 声明
+
+\begin{document}
+
+\makeCoverPage % 封面
+\makeStatement % 声明
+
+\input{paper_session/0.3_Abstract.tex}                          % 摘要
+\input{paper_session/0.4_TableOfContents.tex}                   % 目录
+\input{paper_session/0.5_Introduction.tex}                      % 引言/绪论
+
+
+
+\input{paper_session/1.1_Chapter1.tex}                      % 第一章
+\input{paper_session/2.1_Chapter2.tex}                      % 第二章
+\input{paper_session/3.1_Chapter3.tex}                      % 第三章
+
+
+\input{paper_session/6.1_Conclusion.tex}                   % 结语
+\input{paper_session/7.1_RefBibliography.tex}                   % 参考文献
+
+
+% \bibliographystyle{acm}
+% \bibliography{citation}
+
+\input{paper_session/8.1_appendix.tex}                          % 附录
+\input{paper_session/9.1_ThanksTo.tex}                          % 致谢
+\input{paper_session/10.1_Resume.tex}                 % 作者攻读学位期间发表的学术论文目录
+
+
+\end{document}
