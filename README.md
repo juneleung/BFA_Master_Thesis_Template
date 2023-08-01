@@ -2,7 +2,7 @@
 
 北京电影学院 Beijing Film Academy
 
-硕士毕业论文 Master Thesis
+硕士毕业论文模版 Master Thesis Template
 
 陈俊良 Juneleung Chan
 
