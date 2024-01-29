@@ -24,7 +24,7 @@ Please note that this is not an official document. It is advisable to consult wi
 
 ###  如果使用在线overleaf，
 
-1、打开模板工程[https://www.overleaf.com/read/pswxwjcxtccj#fd7ff9]
+1、打开模板工程[[https://www.overleaf.com/read/pswxwjcxtccj#fd7ff9](https://www.overleaf.com/latex/templates/bfa-master-thesis-template/rrszdyjkhdjy)]
 
 2、复制工程: 左上角[Menu]中，[copy project]
 
